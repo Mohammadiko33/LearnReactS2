@@ -1,0 +1,35 @@
+.btn {
+ cursor: pointer;
+ border: none;
+ background-color: var(--blue);
+ color: #fff;
+ font-size: 1.3rem;
+ padding: .5rem 1.8rem;
+ border-radius: 2rem;
+ text-shadow: 2px 2px 12px #fff;
+ box-shadow: 0 5px 15px -8px rgba(0, 0, 0, 0.3);
+ box-sizing: border-box;
+ text-transform: uppercase;
+ letter-spacing: .15rem;
+ font-family:  TTNorms,Aref,FiraCode FiraCode-VF, IRANYekanX, Parastoo, Poppins, Sahel,
+ Samim Samim-fd Samim-wol, Shabnam Shabnam-fd Shabnam-wol,
+ Tanha Tanha-FD Tanha-WOL Tanha-FD-WOL, Vazir Vazir-FD Vazir-WOL Vazir-FD-WOL,
+ Vazirmatn, Aordibeheshtshablon, BLabeloo, BYekan, IransansxVF, Kalniaglaze,
+ KalniaglazeExpanded, KalniaglazeSemiexpanded, MJText, Yekan, YekanBakh,
+ Abasan, Afsoon, Arshia, BBadr, BBaran, BFarNaz, Flow, Frutiger, Kufi,
+ Rezvan, Two, TimesNewRoman;
+ /* font-family: IransansxVF; */
+ font-weight: 700;
+ transition: all 0.3s ease-in-out 0.03s;
+}
+
+.btnh1:hover{
+ transform: translateY(-10px);
+ box-shadow: 0 15px 15px -8px rgba(0, 0, 0, 0.2);
+ opacity: .8;
+ }
+
+ .btnh2:hover{
+  transform: scale(1.07);
+  box-shadow: 0 15px 15px -8px rgba(0, 0, 0, 0.2);
+ }

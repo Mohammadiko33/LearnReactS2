@@ -1,0 +1,20 @@
+.tbody{
+ font-size: .6rem;
+ font-weight: 700;
+}
+
+.thead{
+gap: 25vw;
+}
+.ttitle{
+width: 28rem;
+font-weight: 700;
+}
+
+tr{
+
+ display: inline-block;
+}
+tr:nth-child(2){
+ margin-top: 3rem;
+}
