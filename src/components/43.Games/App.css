@@ -1,0 +1,145 @@
+body {
+  overflow: hidden;
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+:root {
+  --text: #4a5a6b;
+  --hover: #accbf1;
+}
+.gameTiTles {
+}
+.hoverdImage {
+  display: none;
+  width: 3.2rem;
+  height: 4rem;
+  position: absolute;
+  left: -4rem;
+  transition: all 0.2s ease-in-out 0.01s;
+}
+.gameTiTle {
+  color: var(--text);
+  font-family: system-ui;
+  white-space: nowrap;
+  font-size: 1.8rem;
+  font-weight: 700;
+  word-spacing: 0.5rem;
+  display: inline-block;
+  margin-top: -0.3rem;
+  transition: all 0.1s ease-in-out 0.01s;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  cursor: pointer;
+  margin-bottom: 1.3rem;
+  position: relative;
+}
+.gameTiTle:hover .hoverdImage {
+  display: block;
+}
+.gameTiTle:hover {
+  color: var(--hover);
+}
+
+.homeGameOptions {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 32%;
+  left: 10%;
+}
+.homeGameBack,
+.NewGameOptions,
+.loadGameOptions,
+.deleteGameEnter {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.homeGameBack {
+  bottom: 6%;
+  right: 10%;
+}
+
+.NewGameOptions {
+  width: 100%;
+  top: 35%;
+}
+.NewGameOptions p {
+  text-align: center;
+  margin-bottom: 0rem;
+}
+.NewGameOptions p .hoverdImage {
+  left: 13.5%;
+}
+
+.loadGameOptions {
+  top: 33%;
+  width: 100%;
+  /* left: 0; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.columnLoadGameOptions {
+  display: flex;
+  justify-content: space-between;
+  width: 60rem;
+}
+.loadGameOptions p {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 1.45rem;
+  word-spacing: 0rem;
+}
+.columnLoadGameOptions:hover .gameTiTle{
+ color: var(--hover);
+}
+.LoadGameRevarse{
+ position: absolute;
+ right: 17%;
+ bottom: 6%;
+}
+
+.deleteGameEnter{
+top: 50%;
+left: 50%;
+text-align: center;
+}
+.deleteGameEnter p {
+ margin-bottom: 0.5rem;
+
+}
+
+a{
+  color: var(--text) !important;
+  font-family: system-ui !important;
+  white-space: nowrap !important;
+  font-size: 1.8rem !important;
+  font-weight: 700 !important;
+  word-spacing: 0.5rem !important;
+  display: inline-block !important;
+  margin-top: -0.3rem !important;
+  transition: all 0.1s ease-in-out 0.01s !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.4rem !important;
+  cursor: pointer ;
+  margin-bottom: 0.4rem !important;
+  position: relative !important;
+  color: inherit !important;
+  text-decoration: none !important;
+
+}
+a:hover{
+  color: var(--hover);
+}
+
+img{
+  overflow: hidden;
+}

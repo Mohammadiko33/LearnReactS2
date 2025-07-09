@@ -1,0 +1,22 @@
+.todo{
+ width: 20rem;
+ background-color: #fff;
+ height: 4rem;
+ display: flex
+;
+ justify-content: space-between;
+ align-items: center;
+ border-radius: 0.5rem;
+ margin-top: 1rem;
+ padding: 0 1rem;
+ overflow-x: auto;
+}
+
+.todo:first-child{
+ margin-top: 2.5rem;
+}
+
+.binImage{
+cursor: pointer;
+height: 1.8rem;
+}

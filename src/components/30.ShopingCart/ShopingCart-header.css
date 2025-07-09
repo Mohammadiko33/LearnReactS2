@@ -1,0 +1,27 @@
+header{
+ width: 100vw;
+ position: absolute;
+ top: 0;
+ left: 0;
+ background: linear-gradient(#000000a9, #0000008c), url(./225image1.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ border-radius: 0;
+ }
+ .header{
+     margin-top: 1rem;
+     border-bottom: var(--bor);
+     padding-bottom: 1rem;
+     display: flex;
+     justify-content: center;
+     gap: 11rem;
+ }
+ a{
+ color: #fff;
+ }
+ .header_title{
+     margin: 3rem;
+     font-size: 5.5rem;
+     color: #fff;
+ }

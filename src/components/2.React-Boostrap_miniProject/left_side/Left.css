@@ -1,0 +1,33 @@
+.form{
+ background-color: #f1f1f12f;
+ margin-top: 10.7rem;
+ border-radius: 0.5rem;
+}
+
+.ipt{
+ height: 0.3rem !important;
+}
+.iptEmail{
+
+}
+.iptPassword{
+ margin-top: 1rem;
+
+}
+
+.protocolAndSubmit{
+ display: flex;
+ flex-direction: row-reverse;
+ text-align:left;
+ align-items: center;
+ justify-content: flex-end;
+ margin-top: 1rem;
+ gap: 1rem;
+}
+
+.fromChackBox{
+     display: flex;
+     align-items: center;
+     gap: 1rem;
+     margin-top: 0.8rem;
+}

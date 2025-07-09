@@ -1,0 +1,208 @@
+body{
+
+}
+
+.formUi{
+ display: flex;
+}
+.formUiLeft{
+width: 50%;
+background-color: #fff;
+border-radius: 1rem 0rem 0rem 1rem;
+}
+.formUiLeftSide{
+ width: 364px;
+ height: 469px;
+}
+.formUiLeft_Title{
+ font-size: 30px;
+}
+.formUiLeft_caption{
+ color: #a7a7a7;
+ font-size: 16.4px;
+ font-weight: 700;
+}
+.formUiLeft_inputBox{
+ padding: 0.7rem;
+ background-color: rgb(240, 237, 255 , 0.8);
+}
+.formUiLeft_input{
+ font-size: 12px;
+ font-family: var(--ffp-r);
+ background-color: transparent;
+}
+.formUiLeft_submitBtn{
+ background: linear-gradient(135deg , #9181F4 , #5038ED);
+ border-radius: 0.8rem;
+ width: 124px;
+ height: 52px;
+ font-size: 0.7rem;
+ transition: all 0.5s ease-in-out 0.05s !important;
+}
+.formUiLeft_submitBtn:hover{
+ background: linear-gradient(315deg , #9181F4 , #5038ED);
+}
+.formUiLeft_footerTitle{
+ color: #5252528f;
+}
+.formUiLeft_footerTitle__line{
+ width: 26%;
+ height: 0.2rem;
+ background: #F0EDFF;
+ border-radius: 0.5rem;
+}
+.formUiLeft_footerTitle__bold{
+ color: #1C1C1C;
+ margin-right: 0.3rem;
+}
+.formUiLeft_footerBox{
+     border: 1px solid #F0EDFF;
+     border-radius: 1rem;
+     padding: 0.5rem 0;
+     cursor: pointer;
+}
+.formUiLeft_footerBox__icon{
+ 
+}
+.formUiLeft_footerBox__title{
+font-size: 12px;
+color: #1C1C1C;
+}
+.formUiLeft_footerBox__titleBold{
+ font-size: 12px;
+ margin-left: .25rem;
+ color: #1C1C1C;
+}
+.formUiRight{
+ width: 50%;
+ background: linear-gradient(225deg , #9181F4 , #5038ED);
+ height: 768px;
+ position: relative;
+ border-radius: 0rem 1rem 1rem 0rem;
+ overflow: hidden;
+}
+.formUiRight_Shape{
+ position: absolute;
+ /* width: 100%;
+ height: 100%; */
+ z-index: 0;
+}
+.formUiRight_centerdBox{
+ background-color: #ffffff52;
+ border-radius: 2rem;
+ width: 60%;
+ height: 524px;
+ z-index: 5;
+ position: relative;
+ padding: 1rem;
+ border: 1px solid #fff;
+}
+.formUiRight_centerdBox__title{
+font-size: 1.5rem;
+max-width: 9rem;
+margin-top: 0.5rem;
+color: #fff;
+}
+.formUiRight_centerdBox__image{
+position: absolute;
+bottom: 0;
+right: -5.3rem;
+}
+.formUiRight_centerdBox__circleBox{
+ background-color: #fff;
+ width: max-content;
+ padding: 0.5rem;
+ border-radius: 5rem;
+ position: absolute;
+ bottom: 4rem;
+ left: -1.55rem;
+ transition: all 1s ease-in-out 0.05s;
+}
+.formUiRight_centerdBox__circleBox___image{
+ transition: all 1s ease-in-out 0.05s;
+ cursor: grab;
+
+}
+.formUiRight_centerdBox__circleBox:hover .formUiRight_centerdBox__circleBox___image{
+transform: scale(1.25);
+}
+
+@media only screen and (max-width: 1400px) {
+     .formUiRight_centerdBox {
+          width: 72%;
+     }
+}
+@media only screen and (max-width: 1200px) {
+     .formUi{
+          flex-direction: column;
+          
+     }
+     .formUiLeft,.formUiRight{
+ width: 100%;
+}
+.formUiLeft{
+border-radius: 1rem 1rem 0 0;
+}
+.formUiRight{
+border-radius: 0 0 1rem 1rem;
+}
+.formUiRight_Shape {
+     width: 100%;
+     height: 100%;
+}
+.formUiLeftSide  {
+     margin-top: 2rem;
+     margin-bottom: 6rem;
+}
+.formUiRight_centerdBox__title {
+     max-width: 52%;
+}
+}
+@media only screen and (max-width: 740px) {
+     .formUiRight_centerdBox {
+          width: 85%;
+     }
+}
+@media only screen and (max-width: 480px) {
+     .formUiRight_centerdBox__image{
+          width: 36rem;
+     }
+}
+@media only screen and (max-width: 400px) {
+.formUiLeftSide {
+     width: 100%;
+     padding: 0 0.5rem;
+}
+.formUiLeft_caption {
+     text-align: center;
+}
+.formUiLeft_footerTitle__bold {
+     display: flex;
+     flex-direction: column;
+}
+.formUiLeftSide {
+     margin-bottom: 9rem;
+}
+.formUiRight_centerdBox__image {
+     width: 29rem;
+     left: -14rem;
+ }
+ .formUiRight_centerdBox__title {
+     max-width: 100%;
+ }
+ .formUiRight_centerdBox__circleBox{
+     bottom: -1rem;
+     left: -1.2rem;
+ }
+ .formUiRight_centerdBox {
+     height: 32rem;
+ }
+}
+
+
+
+
+td p{
+     margin-bottom: 0;
+     margin-top: 0.5rem;
+}
