@@ -1,0 +1,255 @@
+
+/* ---------- Yekan ---------- */
+
+@font-face {
+  font-family: "Yekan";
+  src: url("../../public/fonts/yekan.ttf"),
+    url("../../public/fonts/Yekan.woff");
+}
+
+@font-face {
+  font-family: "Yekan";
+  src: url("../../public/fonts/yekan-regular.eot"),
+    url("../../public/fonts/yekan-regular.woff");
+  font-weight: normal;
+}
+
+/* ---------- Vazir ---------- */
+
+@font-face {
+  font-family: "Vazir";
+  src: url("../../public/fonts/vazir.ttf"),
+    url("../../public/fonts/Vazir.eot"),
+    url("../../public/fonts/Vazir.woff"),
+    url("../../public/fonts/Vazir.woff2");
+}
+
+@font-face {
+  font-family: "Vazir-FD";
+  src: url("../../public/fonts/vazir-fd.ttf"),
+    url("../../public/fonts/Vazir-FD.eot"),
+    url("../../public/fonts/Vazir-FD.woff"),
+    url("../../public/fonts/Vazir-FD.woff2");
+}
+
+@font-face {
+  font-family: "Vazir-WOL";
+  src: url("../../public/fonts/vazir-wol.ttf"),
+    url("../../public/fonts/Vazir-WOL.eot"),
+    url("../../public/fonts/Vazir-WOL.woff"),
+    url("../../public/fonts/Vazir-WOL.woff2");
+}
+
+@font-face {
+  font-family: "Vazir-FD-WOL";
+  src: url("../../public/fonts/Vazir-FD-WOL.eot"),
+    url("../../public/fonts/Vazir-FD-WOL.woff"),
+    url("../../public/fonts/Vazir-FD-WOL.woff2");
+}
+
+@font-face {
+  font-family: "Vazir";
+  src: url("../../public/fonts/vazir-bold.ttf"),
+    url("../../public/fonts/Vazir-Bold.eot"),
+    url("../../public/fonts/Vazir-Bold.woff"),
+    url("../../public/fonts/Vazir-Bold.woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Vazir-FD";
+  src: url("../../public/fonts/vazir-bold-fd.ttf"),
+    url("../../public/fonts/Vazir-Bold-FD.eot"),
+    url("../../public/fonts/Vazir-Bold-FD.woff"),
+    url("../../public/fonts/Vazir-Bold-FD.woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Vazir-WOL";
+  src: url("../../public/fonts/vazir-bold-wol.ttf"),
+    url("../../public/fonts/Vazir-Bold-WOL.eot"),
+    url("../../public/fonts/Vazir-Bold-WOL.woff"),
+    url("../../public/fonts/Vazir-Bold-WOL.woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Vazir-FD-WOL";
+  src: url("../../public/fonts/Vazir-Bold-FD-WOL.eot"),
+    url("../../public/fonts/Vazir-Bold-FD-WOL.woff"),
+    url("../../public/fonts/Vazir-Bold-FD-WOL.woff2");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Vazir";
+  src: url("../../public/fonts/vazir-medium.ttf"),
+    url("../../public/fonts/Vazir-Medium.eot"),
+    url("../../public/fonts/Vazir-Medium.woff"),
+    url("../../public/fonts/Vazir-Medium.woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Vazir-FD";
+  src: url("../../public/fonts/vazir-medium-fd.ttf"),
+    url("../../public/fonts/Vazir-Medium-FD.eot"),
+    url("../../public/fonts/Vazir-Medium-FD.woff"),
+    url("../../public/fonts/Vazir-Medium-FD.woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Vazir-WOL";
+  src: url("../../public/fonts/vazir-medium-wol.ttf"),
+    url("../../public/fonts/Vazir-Medium-WOL.eot"),
+    url("../../public/fonts/Vazir-Medium-WOL.woff"),
+    url("../../public/fonts/Vazir-Medium-WOL.woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Vazir-FD-WOL";
+  src: url("../../public/fonts/Vazir-Medium-FD-WOL.eot"),
+    url("../../public/fonts/Vazir-Medium-FD-WOL.woff"),
+    url("../../public/fonts/Vazir-Medium-FD-WOL.woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Vazir";
+  src: url("../../public/fonts/vazir-light.ttf"),
+    url("../../public/fonts/Vazir-Light.eot"),
+    url("../../public/fonts/Vazir-Light.woff"),
+    url("../../public/fonts/Vazir-Light.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Vazir-FD";
+  src: url("../../public/fonts/vazir-light-fd.ttf"),
+    url("../../public/fonts/Vazir-Light-FD.eot"),
+    url("../../public/fonts/Vazir-Light-FD.woff"),
+    url("../../public/fonts/Vazir-Light-FD.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Vazir-WOL";
+  src: url("../../public/fonts/vazir-light-wol.ttf"),
+    url("../../public/fonts/Vazir-Light-WOL.eot"),
+    url("../../public/fonts/Vazir-Light-WOL.woff"),
+    url("../../public/fonts/Vazir-Light-WOL.woff2");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Vazir-FD-WOL";
+  src: url("../../public/fonts/Vazir-Light-FD-WOL.eot"),
+    url("../../public/fonts/Vazir-Light-FD-WOL.woff"),
+    url("../../public/fonts/Vazir-Light-FD-WOL.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Vazir";
+  src: url("../../public/fonts/vazir-thin.ttf"),
+    url("../../public/fonts/Vazir-Thin.eot"),
+    url("../../public/fonts/Vazir-Thin.woff"),
+    url("../../public/fonts/Vazir-Thin.woff2");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Vazir-FD";
+  src: url("../../public/fonts/vazir-thin-fd.ttf"),
+    url("../../public/fonts/Vazir-Thin-FD.eot"),
+    url("../../public/fonts/Vazir-Thin-FD.woff"),
+    url("../../public/fonts/Vazir-Thin-FD.woff2");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Vazir-WOL";
+  src: url("../../public/fonts/vazir-thin-wol.ttf"),
+    url("../../public/fonts/Vazir-Thin-WOL.eot"),
+    url("../../public/fonts/Vazir-Thin-WOL.woff"),
+    url("../../public/fonts/Vazir-Thin-WOL.woff2");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Vazir-FD-WOL";
+  src: url("../../public/fonts/Vazir-Thin-FD-WOL.eot"),
+    url("../../public/fonts/Vazir-Thin-FD-WOL.woff"),
+    url("../../public/fonts/Vazir-Thin-FD-WOL.woff2");
+  font-weight: 100;
+}
+
+.ffyekan {font-family: 'Yekan';}
+.ffvazir {font-family: 'Vazir';}
+
+* {                                                           
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: #fff; */
+  font-size: 1rem;
+  font-family: sans-serif;
+  outline: none;
+  /* font-family: "Yekan" , "Vazir" , sans-serif; */
+  /* font-family: "Vazir" , sans-serif; */
+  text-transform: capitalize ;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 20px;
+}
+
+body {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 20px;
+  /* display: flex;
+justify-content: center;
+height: 100vh;
+align-items: center; */
+  text-transform: capitalize;
+}
+
+button,
+input,
+select,
+textarea {
+  text-transform: inherit !important;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+
+#webpack-dev-server-client-overlay-div {
+  white-space: normal !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.centercheckBox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 2.5rem;
+}
+
+body{
+  background-color: #000;
+  color: #fff;
+}
+
+p{
+  margin: 0;
+}
+
+.modalline{
+  width: 35%;
+}

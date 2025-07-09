@@ -1,0 +1,190 @@
+import React, { useState, useEffect } from "react";
+import { Container } from "react-bootstrap";
+import "./components/87.custom-hook-useipt/app.css";
+import useInput from "./components/87.custom-hook-useipt/useInput";
+
+export default function App64() {
+
+  const [name , nBind , nReset] = useInput("")
+  const [password , pBind , pReset] = useInput("")
+  const [email , eBind , eReset] = useInput("")
+
+  const submitHandler = e => {
+    e.preventDefault()
+    alert(`${name} login is success`)
+    nReset("")
+    pReset("")
+    eReset("")
+  }
+
+  return (
+    <>
+      <Container>
+        <section className="formUi bsll">
+          <div className="formUiLeft">
+            <div className="formUiLeftSide mc mt5">
+              <h3 className="formUiLeft_Title tc  ffp-b">LOGIN</h3>
+              <p className="formUiLeft_caption mb1 ffp-r">
+                How to i get started lorem ipsum dolor at ?
+              </p>
+              <form onSubmit={submitHandler}>
+                <div className="formUiLeft_inputBox dac g-5 mb1 br1 bsdl">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20 22H18V20C18 18.3431 16.6569 17 15 17H9C7.34315 17 6 18.3431 6 20V22H4V20C4 17.2386 6.23858 15 9 15H15C17.7614 15 20 17.2386 20 20V22ZM12 13C8.68629 13 6 10.3137 6 7C6 3.68629 8.68629 1 12 1C15.3137 1 18 3.68629 18 7C18 10.3137 15.3137 13 12 13ZM12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"
+                      fill="#1C1C1C"
+                    />
+                  </svg>
+                  <input
+                    type="text"
+                    placeholder="full name"
+                    className="formUiLeft_input bnone w100"
+                    minLength={7}
+                    maxLength={45}
+                    {...nBind}
+                    autoFocus
+                  />
+                </div>
+                <div className="formUiLeft_inputBox dac g-5 mb1 br1 bsdl">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6 8V7C6 3.68629 8.68629 1 12 1C15.3137 1 18 3.68629 18 7V8H20C20.5523 8 21 8.44772 21 9V21C21 21.5523 20.5523 22 20 22H4C3.44772 22 3 21.5523 3 21V9C3 8.44772 3.44772 8 4 8H6ZM19 10H5V20H19V10ZM11 15.7324C10.4022 15.3866 10 14.7403 10 14C10 12.8954 10.8954 12 12 12C13.1046 12 14 12.8954 14 14C14 14.7403 13.5978 15.3866 13 15.7324V18H11V15.7324ZM8 8H16V7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7V8Z"
+                      fill="#1C1C1C"
+                    />
+                  </svg>
+                  <input
+                    type="password"
+                    placeholder="password"
+                    className="formUiLeft_input bnone w100"
+                    minLength={6}
+                    maxLength={45}
+                    {...pBind}
+                  />
+                </div>
+                <div className="formUiLeft_inputBox dac g-5 mb1 br1 bsdl">
+                  <svg
+                    height="24px"
+                    width="24px"
+                    version="1.1"
+                    id="_x32_"
+                    xmlns="http://www.w3.org/2000/xlink"
+                    viewBox="0 0 512 512"
+                  >
+                    <g>
+                      <path
+                        className="st0"
+                        d="M510.678,112.275c-2.308-11.626-7.463-22.265-14.662-31.054c-1.518-1.915-3.104-3.63-4.823-5.345
+		c-12.755-12.818-30.657-20.814-50.214-20.814H71.021c-19.557,0-37.395,7.996-50.21,20.814c-1.715,1.715-3.301,3.43-4.823,5.345
+		C8.785,90.009,3.63,100.649,1.386,112.275C0.464,116.762,0,121.399,0,126.087V385.92c0,9.968,2.114,19.55,5.884,28.203
+		c3.497,8.26,8.653,15.734,14.926,22.001c1.59,1.586,3.169,3.044,4.892,4.494c12.286,10.175,28.145,16.32,45.319,16.32h369.958
+		c17.18,0,33.108-6.145,45.323-16.384c1.718-1.386,3.305-2.844,4.891-4.43c6.27-6.267,11.425-13.741,14.994-22.001v-0.064
+		c3.769-8.653,5.812-18.171,5.812-28.138V126.087C512,121.399,511.543,116.762,510.678,112.275z M46.509,101.571
+		c6.345-6.338,14.866-10.175,24.512-10.175h369.958c9.646,0,18.242,3.837,24.512,10.175c1.122,1.129,2.179,2.387,3.112,3.637
+		L274.696,274.203c-5.348,4.687-11.954,7.002-18.696,7.002c-6.674,0-13.276-2.315-18.695-7.002L43.472,105.136
+		C44.33,103.886,45.387,102.7,46.509,101.571z M36.334,385.92V142.735L176.658,265.15L36.405,387.435
+		C36.334,386.971,36.334,386.449,36.334,385.92z M440.979,420.597H71.021c-6.281,0-12.158-1.651-17.174-4.552l147.978-128.959
+		l13.815,12.018c11.561,10.046,26.028,15.134,40.36,15.134c14.406,0,28.872-5.088,40.432-15.134l13.808-12.018l147.92,128.959
+		C453.137,418.946,447.26,420.597,440.979,420.597z M475.666,385.92c0,0.529,0,1.051-0.068,1.515L335.346,265.221L475.666,142.8
+		V385.92z"
+                      />
+                    </g>
+                  </svg>
+                  <input
+                    type="email"
+                    placeholder="enter email"
+                    className="formUiLeft_input bnone w100"
+                    style={{ textTransform: "none" }}
+                    minLength={13}
+                    maxLength={60}
+                    {...eBind}
+                  />
+                </div>
+                <div className="formUiLeft_submitBtn__box djc">
+                  <button
+                    type="submit"
+                    className="formUiLeft_submitBtn bsal bnone cfff ffp-r"
+                  >
+                    Login now
+                  </button>
+                </div>
+              </form>
+              <div className="formUiLeft_footerTitle_box djspac mt1">
+                <div className="formUiLeft_footerTitle__line"></div>
+                <p className="formUiLeft_footerTitle tc">
+                  <span className="formUiLeft_footerTitle__bold fw-bold">
+                    Login
+                  </span>
+                  with others
+                </p>
+                <div className="formUiLeft_footerTitle__line"></div>
+              </div>
+              <a href="#" className="formUiLeft_footerBox djac g-5 mb1 mt1 bsfl">
+                <img
+                  src="64.Assets/google.png"
+                  alt="google"
+                  className="formUiLeft_footerBox__icon"
+                />
+                <p className="formUiLeft_footerBox__title mnone ffp-r">
+                  login with
+                  <span className="formUiLeft_footerBox__titleBold ffp-b">
+                    google
+                  </span>
+                </p>
+              </a>
+              <a href="#" className="formUiLeft_footerBox djac g-5 bsfl">
+                <img
+                  src="64.Assets/facebook.png"
+                  alt="facebook"
+                  className="formUiLeft_footerBox__icon"
+                />
+                <p className="formUiLeft_footerBox__title mnone">
+                  login with
+                  <span className="formUiLeft_footerBox__titleBold ffp-b">
+                    facebook
+                  </span>
+                </p>
+              </a>
+            </div>
+          </div>
+          <div className="formUiRight">
+            <img
+              src="64.Assets/shape.svg"
+              className="formUiRight_Shape"
+              alt=""
+            />
+
+            <div className="formUiRight_centerdBox mc mt6">
+              <p className="formUiRight_centerdBox__title ffp-b">
+                Very good works are waiting for you Login Now!!!
+              </p>
+              <img
+                src="64.Assets/women.png"
+                className="formUiRight_centerdBox__image"
+                alt=""
+              />
+              <div className="formUiRight_centerdBox__circleBox">
+                <img
+                  src="64.Assets/power.png"
+                  alt="power"
+                  className="formUiRight_centerdBox__circleBox___image"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </Container>
+    </>
+  );
+}

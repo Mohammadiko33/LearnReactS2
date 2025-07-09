@@ -1,0 +1,1 @@
+cd f/B-VSCode/project/New-react-app/S2_Notes-app

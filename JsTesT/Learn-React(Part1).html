@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>------Learn React (Part1)-------</title>
+  <link rel="stylesheet" href="./Styles/Learn-React(Part1).css">
+
+</head>
+<body>
+
+
+  <h1 class="headTiTle">Hello React JS</h1>
+  <h3 class="headTiTle2" onclick="thisIsElonMusk(this)"></h3>
+  <h3 class="headTiTle2"></h3>
+
+  <button id="btn">click me</button>
+
+  <!-- <script>
+    let redRgb = 255
+    let greenRgb = 255
+    let blueRgb = 255
+    let bg = 0
+    let sec = 0
+    let min = 0
+    let hor = 0
+    const body = document.body
+    const h1Elament = document.querySelector('.headTiTle')
+    const h1Elament2 = document.querySelector('.headTiTle2')
+    setInterval(() => {
+      redRgb = Math.floor(Math.random() * 255)
+      greenRgb = Math.floor(Math.random() * 255)
+      blueRgb = Math.floor(Math.random() * 255)
+
+      bg++
+      sec++
+
+      if (sec > 59) {
+        min++
+        h1Elament2.classList.add('minSpanVisible')
+        sec = 0
+      } else if (min > 59) {
+        hor++
+        h1Elament2.classList.add('hourSpanVisible')
+        min = 0
+      } else if (bg > 255) {
+        bg = 0
+      }
+
+
+      if (sec > 0) {
+        if (sec < 10) {
+          h1Elament2.classList.add('makeZeroSec')
+        } else {
+          h1Elament2.classList.remove('makeZeroSec')
+        }
+      }
+
+      if (min > 0) {
+        if (min < 10) {
+          h1Elament2.classList.add('makeZeroMin')
+        } else {
+          h1Elament2.classList.remove('makeZeroMin')
+        }
+      }
+
+      body.style.backgroundColor = `rgb(${bg},${bg},${bg})`
+      h1Elament.style.color = `rgb(${redRgb},${greenRgb},${blueRgb})`
+      h1Elament2.style.color = `rgb(${redRgb},${greenRgb},${blueRgb})`
+      h1Elament.style.textShadow = `5px 5px 0.8rem rgb(${redRgb},${greenRgb},${blueRgb})`
+      h1Elament2.innerHTML = `you <span class='hourSpan'>${hor} hour</span> <span class='minSpan'>${min} min</span> <span class="secSpan">${sec} sec</span> <br>  weasted time`
+    }, 1000)
+
+  </script> -->
+  <script src="./React-JS/Learn-React(Part1).js"></script>
+</body>
+</html>
